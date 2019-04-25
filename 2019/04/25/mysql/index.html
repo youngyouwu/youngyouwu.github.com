@@ -17,21 +17,21 @@
   <meta http-equiv="window-target" content="_top">
   
   
-  <title>Java语言 | Young</title>
-  <meta name="description" content="Java从入门到秃顶java是一门面向对象的编程语言…… 万物起源-HelloWorld12345public class HelloWorld &amp;#123;    public static void main(String[] args) &amp;#123;        System.out.println(&amp;quot;Hello world!&amp;quot;);    &amp;#125;&amp;#125;">
-<meta name="keywords" content="java">
+  <title>mysql用户帐号管理 | Young</title>
+  <meta name="description" content="用户登录要使用命令行客户端连接到MySQL服务器，请根据需要为要使用的帐户指定用户名和密码选项12shell&amp;gt; mysql --user=finley --password db_nameshell&amp;gt; mysql -u finley -p db_name 如果省略了命令行上的–password或-p选项后面的密码值，客户端将提示输入密码12shell&amp;gt; mysql --user=">
+<meta name="keywords" content="MySQL,数据库">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Java语言">
-<meta property="og:url" content="https://github.com/youngyouwu/2019/04/24/java/index.html">
+<meta property="og:title" content="mysql用户帐号管理">
+<meta property="og:url" content="https://github.com/youngyouwu/2019/04/25/mysql/index.html">
 <meta property="og:site_name" content="YoungYouWu">
-<meta property="og:description" content="Java从入门到秃顶java是一门面向对象的编程语言…… 万物起源-HelloWorld12345public class HelloWorld &amp;#123;    public static void main(String[] args) &amp;#123;        System.out.println(&amp;quot;Hello world!&amp;quot;);    &amp;#125;&amp;#125;">
+<meta property="og:description" content="用户登录要使用命令行客户端连接到MySQL服务器，请根据需要为要使用的帐户指定用户名和密码选项12shell&amp;gt; mysql --user=finley --password db_nameshell&amp;gt; mysql -u finley -p db_name 如果省略了命令行上的–password或-p选项后面的密码值，客户端将提示输入密码12shell&amp;gt; mysql --user=">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-04-24T06:20:43.090Z">
+<meta property="og:updated_time" content="2019-04-25T05:39:25.685Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Java语言">
-<meta name="twitter:description" content="Java从入门到秃顶java是一门面向对象的编程语言…… 万物起源-HelloWorld12345public class HelloWorld &amp;#123;    public static void main(String[] args) &amp;#123;        System.out.println(&amp;quot;Hello world!&amp;quot;);    &amp;#125;&amp;#125;">
+<meta name="twitter:title" content="mysql用户帐号管理">
+<meta name="twitter:description" content="用户登录要使用命令行客户端连接到MySQL服务器，请根据需要为要使用的帐户指定用户名和密码选项12shell&amp;gt; mysql --user=finley --password db_nameshell&amp;gt; mysql -u finley -p db_name 如果省略了命令行上的–password或-p选项后面的密码值，客户端将提示输入密码12shell&amp;gt; mysql --user=">
   <!-- Canonical links -->
-  <link rel="canonical" href="https://github.com/youngyouwu/2019/04/24/java/index.html">
+  <link rel="canonical" href="https://github.com/youngyouwu/2019/04/25/mysql/index.html">
   
     <link rel="alternate" href="/atom.xml" title="YoungYouWu" type="application/atom+xml">
   
@@ -290,21 +290,21 @@
   <div class="slimContent">
     <nav id="toc" class="article-toc">
       <h3 class="toc-title">文章目录</h3>
-      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Java从入门到秃顶"><span class="toc-number">1.</span> <span class="toc-text">Java从入门到秃顶</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#万物起源-HelloWorld"><span class="toc-number">2.</span> <span class="toc-text">万物起源-HelloWorld</span></a></li></ol>
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#用户登录"><span class="toc-number">1.</span> <span class="toc-text">用户登录</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#添加用户帐号"><span class="toc-number">2.</span> <span class="toc-text">添加用户帐号</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#删除用户帐号"><span class="toc-number">3.</span> <span class="toc-text">删除用户帐号</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#修改用户帐号密码"><span class="toc-number">4.</span> <span class="toc-text">修改用户帐号密码</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#回收用户帐号权限"><span class="toc-number">5.</span> <span class="toc-text">回收用户帐号权限</span></a></li></ol>
     </nav>
   </div>
 </aside>
 
 <main class="main" role="main">
   <div class="content">
-  <article id="post-java" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
+  <article id="post-mysql" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
     
     <div class="article-header">
       
         
   
     <h1 class="article-title" itemprop="name">
-      Java语言
+      mysql用户帐号管理
     </h1>
   
 
@@ -312,33 +312,60 @@
       <div class="article-meta">
         <span class="article-date">
     <i class="icon icon-calendar-check"></i>
-	<a href="/youngyouwu/2019/04/24/java/" class="article-date">
-	  <time datetime="2019-04-24T03:11:31.552Z" itemprop="datePublished">2019-04-24</time>
+	<a href="/youngyouwu/2019/04/25/mysql/" class="article-date">
+	  <time datetime="2019-04-25T04:50:02.565Z" itemprop="datePublished">2019-04-25</time>
 	</a>
 </span>
         
   <span class="article-category">
     <i class="icon icon-folder"></i>
-    <a class="article-category-link" href="/youngyouwu/categories/编程语言/">编程语言</a>
+    <a class="article-category-link" href="/youngyouwu/categories/数据库/">数据库</a>
   </span>
 
         
   <span class="article-tag">
     <i class="icon icon-tags"></i>
-	<a class="article-tag-link" href="/youngyouwu/tags/java/">java</a>
+	<a class="article-tag-link" href="/youngyouwu/tags/MySQL/">MySQL</a>, <a class="article-tag-link" href="/youngyouwu/tags/数据库/">数据库</a>
   </span>
 
 
         
 
-        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/youngyouwu/2019/04/24/java/#comments" class="article-comment-link">评论</a></span>
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/youngyouwu/2019/04/25/mysql/#comments" class="article-comment-link">评论</a></span>
         
       </div>
     </div>
     <div class="article-entry marked-body" itemprop="articleBody">
       
-        <h2 id="Java从入门到秃顶"><a href="#Java从入门到秃顶" class="headerlink" title="Java从入门到秃顶"></a>Java从入门到秃顶</h2><p>java是一门面向对象的编程语言……</p>
-<h2 id="万物起源-HelloWorld"><a href="#万物起源-HelloWorld" class="headerlink" title="万物起源-HelloWorld"></a>万物起源-HelloWorld</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">public class HelloWorld &#123;</span><br><span class="line">    public static void main(String[] args) &#123;</span><br><span class="line">        System.out.println(&quot;Hello world!&quot;);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+        <h2 id="用户登录"><a href="#用户登录" class="headerlink" title="用户登录"></a>用户登录</h2><p>要使用命令行客户端连接到MySQL服务器，请根据需要为要使用的帐户指定用户名和密码选项<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">shell&gt; mysql --user=finley --password db_name</span><br><span class="line">shell&gt; mysql -u finley -p db_name</span><br></pre></td></tr></table></figure></p>
+<p>如果省略了命令行上的–password或-p选项后面的密码值，客户端将提示输入密码<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">shell&gt; mysql --user=finley --password=password db_name</span><br><span class="line">shell&gt; mysql -u finley -ppassword db_name</span><br></pre></td></tr></table></figure></p>
+<p>如果使用-p选项，则-p与密码值之间没有空格</p>
+<h2 id="添加用户帐号"><a href="#添加用户帐号" class="headerlink" title="添加用户帐号"></a>添加用户帐号</h2><p>连接到服务器后root，你可以添加新帐户<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">mysql&gt; CREATE USER &apos;finley&apos;@&apos;localhost&apos; IDENTIFIED BY &apos;password&apos;;</span><br><span class="line">mysql&gt; GRANT ALL PRIVILEGES ON *.* TO &apos;finley&apos;@&apos;localhost&apos; WITH GRANT OPTION;</span><br><span class="line">mysql&gt; CREATE USER &apos;finley&apos;@&apos;%&apos; IDENTIFIED BY &apos;password&apos;;</span><br><span class="line">mysql&gt; GRANT ALL PRIVILEGES ON *.* TO &apos;finley&apos;@&apos;%&apos; WITH GRANT OPTION;</span><br></pre></td></tr></table></figure></p>
+<p>创建的帐户具有以下属性</p>
+<ul>
+<li>两个帐户的用户名为finley。两者都是具有完全权限的超级用户帐户。’finley’@’localhost’帐户只能在从本地主机连接时使用。’finley’@’%’帐户使用 ‘%’通配符作为主机部分，因此可用于从任何主机连接</li>
+</ul>
+<p>要查看帐户的权限，可以使用 SHOW GRANTS<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">mysql&gt; SHOW GRANTS FOR &apos;admin&apos;@&apos;localhost&apos;;</span><br><span class="line">+-----------------------------------------------------+</span><br><span class="line">| Grants for admin@localhost                          |</span><br><span class="line">+-----------------------------------------------------+</span><br><span class="line">| GRANT RELOAD, PROCESS ON *.* TO &apos;admin&apos;@&apos;localhost&apos; |</span><br><span class="line">+-----------------------------------------------------+</span><br></pre></td></tr></table></figure></p>
+<p>下一个示例创建三个帐户并授予他们对特定数据库的访问权限。他们每个用户名 custom和密码为 password<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">mysql&gt; CREATE USER &apos;custom&apos;@&apos;localhost&apos; IDENTIFIED BY &apos;password&apos;;</span><br><span class="line">mysql&gt; GRANT SELECT,INSERT,UPDATE,DELETE,CREATE,DROP ON bankaccount.* TO &apos;custom&apos;@&apos;localhost&apos;;</span><br><span class="line">mysql&gt; CREATE USER &apos;custom&apos;@&apos;host47.example.com&apos; IDENTIFIED BY &apos;password&apos;;</span><br><span class="line">mysql&gt; GRANT SELECT,INSERT,UPDATE,DELETE,CREATE,DROP ON expenses.* TO &apos;custom&apos;@&apos;host47.example.com&apos;;</span><br><span class="line">mysql&gt; CREATE USER &apos;custom&apos;@&apos;%.example.com&apos; IDENTIFIED BY &apos;password&apos;;</span><br><span class="line">mysql&gt; GRANT SELECT,INSERT,UPDATE,DELETE,CREATE,DROP ON customer.* TO &apos;custom&apos;@&apos;%.example.com&apos;;</span><br></pre></td></tr></table></figure></p>
+<p>三个帐户可以使用如下</p>
+<ul>
+<li>第一个帐户可以访问 bankaccount数据库，但只能从本地主机访问。</li>
+<li>第二个帐户可以访问expenses 数据库，但只能从主机访问 host47.example.com。</li>
+<li>第三个帐户可以customer 从example.com 域中的任何主机访问数据库。由于使用%帐户名称的主机部分中的通配符，该帐户可以访问域中所有计算机。</li>
+</ul>
+<h2 id="删除用户帐号"><a href="#删除用户帐号" class="headerlink" title="删除用户帐号"></a>删除用户帐号</h2><p>要删除帐户，使用DROP USER语句<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mysql&gt; DROP USER &apos;jeffrey&apos;@&apos;localhost&apos;;</span><br></pre></td></tr></table></figure></p>
+<h2 id="修改用户帐号密码"><a href="#修改用户帐号密码" class="headerlink" title="修改用户帐号密码"></a>修改用户帐号密码</h2><p>SET PASSWORD可以使用或不使用FOR明确命名用户帐户的子句</p>
+<ul>
+<li>使用子句，该语句为指定帐户设置密码</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">SET PASSWORD = &apos;auth_string&apos;;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>不使用子句，该语句设置当前用户的密码</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">SET PASSWORD = &apos;auth_string&apos;;</span><br></pre></td></tr></table></figure>
+<h2 id="回收用户帐号权限"><a href="#回收用户帐号权限" class="headerlink" title="回收用户帐号权限"></a>回收用户帐号权限</h2><p>回收用户指定的权限，如回收INSERT权限<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">REVOKE INSERT ON *.* FROM &apos;jeffrey&apos;@&apos;localhost&apos;;</span><br></pre></td></tr></table></figure></p>
+<p>要撤消用户所有权限，可以使用下面语法<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">REVOKE ALL PRIVILEGES, GRANT OPTION FROM user [, user] ...</span><br></pre></td></tr></table></figure></p>
+
       
     </div>
     <div class="article-footer">
@@ -347,7 +374,7 @@
     
     <li class="post-copyright-link hidden-xs">
       <strong>本文链接：</strong>
-      <a href="https://github.com/youngyouwu/2019/04/24/java/" title="Java语言" target="_blank" rel="external">https://github.com/youngyouwu/2019/04/24/java/</a>
+      <a href="https://github.com/youngyouwu/2019/04/25/mysql/" title="mysql用户帐号管理" target="_blank" rel="external">https://github.com/youngyouwu/2019/04/25/mysql/</a>
     </li>
     
     <li class="post-copyright-license">
@@ -393,13 +420,9 @@
   
   <ul class="pager pull-left">
     
-    <li class="prev">
-      <a href="/youngyouwu/2019/04/25/mysql/" title="mysql用户帐号管理"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;上一篇</span></a>
-    </li>
-    
     
     <li class="next">
-      <a href="/youngyouwu/2019/04/24/hello-world/" title="Hello World"><span>下一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
+      <a href="/youngyouwu/2019/04/24/java/" title="Java语言"><span>下一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
     </li>
     
     
